@@ -1,6 +1,77 @@
-.container {
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header, nav {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* LOGO AND NAVIGATION BAR */
+
+.header-container {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+header {
+    flex-grow: 6;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    background-color: #F1F0F0;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+#sign-up {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #0065FC;
+    margin-right: 50px;
+    padding: 1.5em;
+}
+
+.nav-link {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    /* border: none; */
+    padding: 2em; 
+}
+
+.nav-link:hover {
+    border: #0065FC;
+    border-style: solid none none none;
+    color: #0065FC;
+}
+
+#sign-up:hover {
+    border-top: #0065FC;
+    border-style: solid none none none;
+    color: #0065FC;
+}
+
+/* SECTION ONE */
+
+/* INTRO */
+
+#intro-h {
+    margin-bottom: 0;
+}
+
+#intro-p {
+    margin-top: 5px;
+    font-weight: 500;
+    color: black;
+    font-size: 1em;
 }
 

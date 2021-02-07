@@ -2,65 +2,60 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Reservia</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/557f2357b4.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <h1>Hi</h1>
 
-    <section>
-
-        <h2>Activities in Marseille</h2>
-        <div>
-            <img src="img/old_port_small.jpg">
-            <h3>Old Port</h3>
-        </div>
-        <div>
-            <img src="img/pomegues_fort_small.jpg">
-            <h3>Pomègues Fort</h3>
-        </div>
-        <div>
-            <img src="img/frioul_island_small.jpg">
-            <h3>Frioul Island</h3>
-        </div>
-        <div>
-            <img src="img/calanques_national_park_small.jpg">
-            <h3>Calanques National Park</h3>
-        </div>
-        <div>
-            <img src="img/notre_dame_de_la_garde_small.jpg">
-            <h3>Notre-Dame-de-la-Garde</h3>
-        </div>
-        <div>
-            <img src="img/longchamp_park_small.jpg">
-            <h3>Longchamp Park</h3>
-        </div>
-
-    </section>
-
-    <footer>
-        <div class="container">
-            <div>
-                <h3>About</h3>
-                <p>Site map</p>
-                <p>General Terms and Conditions</p>
-                <p>Data and Privacy</p>
+    <!-- LOGO AND NAVIGATION BAR -->
+    <div class="header-container">
+        <header>
+            <div><a href="#"><img src="images/logo/Reservia.svg" alt="Logo of Reservia"
+                        title="Reservia - Home button"></a>
             </div>
-            <div>
-                <h3>Our Accommodations</h3>
-                <p>Quality Assessment</p>
-                <p>You have a hotel?</p>
-            </div>
-            <div>
-                <h3>Assistance</h3>
-                <p>Help Desk</p>
-                <p>Contact Us</p>
-            </div>
-        </div>
-    </footer>
+        </header>
+        <nav>
+            <a class="nav-link" href="#">Accommodations</a>
+            <a class="nav-link" href="#">Activities</a>
+        </nav>
+        <a id="sign-up" href="#"><strong>Sign Up</strong></a>
+    </div>
+
+    <!-- SECTION ONE -->
+
+    <!-- INTRO -->
+    <div>
+        <h2 id="intro-h"><strong>Find a place for your dream vacation</strong></h2>
+        <p id="intro-p">Downtown or in nature</p>
+    </div>
+    <!-- SEARCH BAR -->
+    <div class="search-container">
+        <i class="fas fa-map-marker-alt"></i>
+        <input class="search-box" placeholder="Marseille, France" type="text" />
+        <div id="search-button">Search</div>
+    </div>
+    <!-- FILTERS -->
+    <div class="filter-container">
+        <div class="filters">Filters</div>
+        <a class="money" href="#"><i class="fas fa-money-bill-wave money"></i>Low cost</a>
+        <a class="child" href="#"><i class="fas fa-child child"></i>Family-friendly</a>
+        <a class="heart" href="#"><i class="fas fa-heart heart"></i>Romantic</a>
+        <a class="dog" href="#"><i class="fas fa-dog dog"></i>Pets allowed</a>
+    </div>
+    <!-- INFORMATION -->
+    <div class="info-container">
+        <i class="fas fa-info i"></i>
+        <p id="info-p">More than 500 accommodations are available in this city</p>
+    </div>
 
 </body>
 
