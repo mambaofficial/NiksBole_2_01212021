@@ -7,7 +7,6 @@ body {
 }
 
 header, nav {
-    margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -77,3 +76,105 @@ nav {
     font-size: 1em;
 }
 
+/* SEARCH BAR */
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    width: 337px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #f2f2f2;
+    margin-bottom: 2em;
+}
+
+.fa-map-marker-alt {
+    background-color: #f2f2f2;
+    width: 52px;
+    padding: 8px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}    
+
+.search-box {
+    width: 55em;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0.4em;
+    border: none;
+    
+}
+
+#search-button {
+    text-decoration: none;
+    font-size: 17px;
+    width: 52px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #0065FC;
+    padding: 0.6em;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* FILTERS */
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50em;
+}
+
+.filters {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 8px;
+}
+
+.money, .child, .heart, .dog {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 100px;
+    border-color: #f2f2f2;
+    padding-right: 10px;
+}
+
+.money:hover, .child:hover, .heart:hover, .dog:hover {
+    background-color: #DEEBFF;
+    box-shadow: 0 0 0.5em 0.05em rgb(92, 92, 92)
+}
+
+/* INFORMATION */
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    width: 23em;
+}
+
+.i {
+    color: #0065FC;
+    border: 2px solid #F2F2F2;
+    border-radius: 4em;
+    font-size: 0.5em;
+    height: 1em;
+    margin-right: 5px;
+    align-self: center;
+    padding: 0.5em 0.8em;
+}
+
+#info-p {
+    font-size: 14px;
+}
