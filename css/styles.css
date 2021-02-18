@@ -103,7 +103,6 @@ nav {
     font-weight: bold;
     padding: 0.4em;
     border: none;
-    
 }
 
 ::placeholder {
@@ -188,7 +187,7 @@ nav {
 
 /* ACCOMMODATIONS */
 
-.big-container {
+.one-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -198,7 +197,7 @@ nav {
 article {
     background-color: #F2F2F2;
     border-radius: 2em;
-    padding: 1em 2em 2em 2em;
+    padding: 1em 4em 3em 4em;
     margin-bottom: 2em;
     height: 35.5em;
 }
@@ -214,20 +213,19 @@ article {
     flex-wrap: wrap;
     width: 49.5em;
     align-content: space-between;
-    height: 26em;
-    margin-bottom: 2.8em;
+    height: 28em;
+    margin-bottom: 1.8em;
 }
 
 .hotel {
     background-color: white;
-    width: 15.3em;
     border-radius: 1em;
-    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
     text-decoration: none;
+    margin-left: 4px;
 }
 
 .hotel:hover {
-    box-shadow: 0 0 0.5em 0.05em #2e2e2e;
+    box-shadow: 0 0 0.5em 0.05em #0065FC;
 }
 
 .hotel:visited {
@@ -294,8 +292,12 @@ article {
 aside {
     background-color: #F2F2F2;
     border-radius: 2em;
-    padding: 1em 2em 2em 2em;
+    padding: 1em 2em 3em 2em;
     height: 35.5em;
+}
+
+.chart {
+    margin-left: 6em;
 }
 
 .most-popular-container {
@@ -306,7 +308,7 @@ aside {
 }
 
 .most-popular-container:hover {
-    box-shadow: 0 0 0.5em 0.05em #2E2E2E;
+    box-shadow: 0 0 0.5em 0.05em #0065FC;
 }
 
 .most-popular-container:visited {
@@ -332,4 +334,140 @@ aside {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     margin-bottom: -1em;
+}
+
+/* SECTION THREE */
+
+/* ACTIVITIES */
+
+section {
+    margin: 2em;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+    margin: 1em;
+}
+
+.container-one-column, .container-two-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activities-link {
+    text-decoration: none;
+}
+
+.activities-link:visited {
+    color: initial;
+}
+
+#Old-Port {
+    background-color: white;
+    height: 30.5em;
+    width: 18em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #A3A3A3;
+}
+
+#Pomegues-Fort {
+    background-color: white;
+    height: 19em;
+    width: 18em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #A3A3A3;
+}
+
+#Frioul-Island {
+    background-color: white;
+    height: 9em;
+    width: 18em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #A3A3A3;
+}
+
+#Calanques-National-Park {
+    background-color: white;
+    height: 30.5em;
+    width: 18em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #A3A3A3;
+}
+
+#Notre-Dame-de-la-Garde {
+    background-color: white;
+    height: 14em;
+    width: 18em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #A3A3A3;
+}
+
+#Longchamp-Park {
+    background-color: white;
+    height: 14em;
+    width: 18em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #A3A3A3;
+}
+
+#Old-Port:hover, #Pomegues-Fort:hover, #Frioul-Island:hover, #Calanques-National-Park:hover, #Notre-Dame-de-la-Garde:hover, #Longchamp-Park:hover {
+    box-shadow: 0 0 0.5em 0.05em #0065FC;
+}
+
+.Old-Port-Image {
+    height: 27.5em;
+    width: 18em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Pomegues-Fort-Image {
+    height: 16em;
+    width: 18em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Frioul-Image {
+    height: 6em;
+    width: 18em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Calanques-Image {
+    height: 27.5em;
+    width: 18em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Notre-Image {
+    height: 11em;
+    width: 18em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Longchamp-Image {
+    height: 11em;
+    width: 18em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.activity-name {
+    color: black;
+    font-weight: 700;
+    padding-left: 1em;
+    margin-top: 0.6em;
 }
