@@ -3,6 +3,9 @@ html {
 }
 
 body {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -60,11 +63,10 @@ nav {
     color: #0065FC;
 }
 
-/* SECTION ONE */
-
 /* INTRO */
 
 #intro-h {
+    font-size: 21px;
     margin-bottom: 0;
     font-weight: bold;
 }
@@ -133,7 +135,7 @@ nav {
 }
 
 .filters {
-    font-size: 17px;
+    font-size: 19px;
     text-decoration: none;
     font-weight: bold;
     padding: 7px;
@@ -146,7 +148,7 @@ nav {
 }
 
 .money, .child, .heart, .dog {
-    font-size: 17px;
+    font-size: 19px;
     text-decoration: none;
     font-weight: bold;
     border: 1px solid;
@@ -182,8 +184,6 @@ nav {
 #info-p {
     font-size: 14px;
 }
-
-/* SECTION TWO */
 
 /* ACCOMMODATIONS */
 
@@ -336,8 +336,6 @@ aside {
     margin-bottom: -1em;
 }
 
-/* SECTION THREE */
-
 /* ACTIVITIES */
 
 section {
@@ -470,4 +468,41 @@ section {
     font-weight: 700;
     padding-left: 1em;
     margin-top: 0.6em;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 3em;
+    background-color: #f2f2f2;
+    position: relative;
+    height: 10em;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60em;
+    padding-left: 2.1875em;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: 000000;
+    font-size: 0.8em;
+}
+
+.footer-link:visited {
+    color: initial;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.p-footer {
+    font-size: 20px;
+    margin-bottom: -0.8em;
 }
