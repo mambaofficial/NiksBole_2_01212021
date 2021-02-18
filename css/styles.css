@@ -222,6 +222,7 @@ article {
     border-radius: 1em;
     text-decoration: none;
     margin-left: 4px;
+    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
 }
 
 .hotel:hover {
@@ -307,7 +308,7 @@ aside {
     height: 29.8em;
 }
 
-.most-popular-container:hover {
+.most-popular-hotel:hover {
     box-shadow: 0 0 0.5em 0.05em #0065FC;
 }
 
