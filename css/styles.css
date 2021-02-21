@@ -131,7 +131,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 45em;
+    margin-right: 38em;
 }
 
 .filters {
@@ -151,13 +151,24 @@ nav {
     font-size: 19px;
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid;
+    border: 2px solid #f2f2f2;
     border-radius: 1em;
-    border-color: #f2f2f2;
-    padding-right: 10px;
+    cursor: pointer;
+    background-color: white;
+    padding: 0;
+    padding-right: 0.5em;
 }
 
-.money:hover, .child:hover, .heart:hover, .dog:hover {
+.money:focus, .child:focus, .heart:focus, .dog:focus {
+    outline: none;
+}
+
+.round {
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+
+.money:hover, .child:hover, .heart:hover, .dog:hover, .money:active, .child:active, .heart:active, .dog:active {
     background-color: #DEEBFF;
     box-shadow: 0 0 0.5em 0.05em rgb(92, 92, 92)
 }
@@ -197,7 +208,7 @@ nav {
 article {
     background-color: #F2F2F2;
     border-radius: 2em;
-    padding: 1em 4em 3em 4em;
+    padding: 1em 3em 3em 3em;
     margin-bottom: 2em;
     height: 35.5em;
 }
