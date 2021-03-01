@@ -19,219 +19,236 @@
     <!-- LOGO AND NAVIGATION BAR -->
     <div class="header-container">
         <header>
-            <div><a href="#"><img src="images/logo/Reservia.svg" alt="Logo of Reservia"
+            <div class="logo"><a href="#"><img src="images/logo/Reservia.svg" alt="Logo of Reservia"
                         title="Reservia - Home button"></a>
             </div>
         </header>
         <nav>
-            <a class="nav-link" href="#accommodations-anchor">Accommodations</a>
-            <a class="nav-link" href="#activities-anchor">Activities</a>
+            <a class="nav-link" id="accommodations-nav" href="#accommodations-anchor">Accommodations</a>
+            <a class="nav-link" id="activities-nav" href="#activities-anchor">Activities</a>
         </nav>
         <a id="sign-up" href="#">Sign Up</a>
     </div>
 
-    <!-- INTRO -->
-    <div>
-        <h2 id="intro-h">Find a place for your dream vacation</h2>
-        <p id="intro-p">Downtown or in nature</p>
-    </div>
-    <!-- SEARCH BAR -->
-    <div class="search-container">
-        <i class="fas fa-map-marker-alt" style="padding: 12px;"></i>
-        <input class="search-box" placeholder="Marseille, France" type="text" />
-        <div id="search-button">Search</div>
-    </div>
-    <!-- FILTERS -->
-    <div class="filter-container">
-        <div class="filters">Filters</div>
-        <button class="money"><i class="fas fa-money-bill-wave round"></i>Low cost</button>
-        <button class="child" href="#"><i class="fas fa-child round"></i>Family-friendly</button>
-        <button class="heart" href="#"><i class="fas fa-heart round"></i>Romantic</button>
-        <button class="dog" href="#"><i class="fas fa-dog round"></i>Pets allowed</button>
-    </div>
-    <!-- INFORMATION -->
-    <div class="info-container">
-        <i class="fas fa-info i"></i>
-        <p id="info-p">More than 500 accommodations are available in this city</p>
-    </div>
+    <div class="part">
 
-    <!-- ACCOMMODATIONS -->
-    <div class="one-container">
-        <article id="accommodations-anchor">
-            <h2 class="article-title">Accommodations in Marseille</h2>
-
-            <div class="hotel-container">
-                <a class="hotel" href="#">
-                    <img class="hotel-image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                        alt="Auberge la Cannebière. Night starting at 25€. 4 stars rating">
-                    <h4 class="hotel-name">Auberge la Cannebière</h3>
-                        <p class="hotel-price">Night starting at <strong>25€</strong></p>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i class="fas fa-star"></i></span>
-                </a>
-                <a class="hotel" href="#">
-                    <img class="hotel-image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                        alt="Hotel du port. Night starting at 52€. 5 stars rating">
-                    <h4 class="hotel-name">Hôtel du port</h3>
-                        <p class="hotel-price">Night starting at <strong>52€</strong></p>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i class="fas fa-star"></i></span>
-                </a>
-                <a class="hotel" href="#">
-                    <img class="hotel-image" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                        alt="Les mouettes Hotel. Night starting at 76€. 4 stars rating">
-                    <h4 class="hotel-name">Les mouettes Hotel</h3>
-                        <p class="hotel-price">Night starting at <strong>76€</strong></p>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i class="fas fa-star"></i></span>
-                </a>
-                <a class="hotel" href="#">
-                    <img class="hotel-image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                        alt="Hotel de la mer. Night starting at 46€. 3 stars rating">
-                    <h4 class="hotel-name">Hôtel de la mer</h3>
-                        <p class="hotel-price">Night starting at <strong>46€</strong></p>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i class="fas fa-star"></i></span>
-                </a>
-                <a class="hotel" href="#">
-                    <img class="hotel-image" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                        alt="Auberge Le Panier. Night starting at 23€. 4 stars rating">
-                    <h4 class="hotel-name">Auberge Le Panier</h3>
-                        <p class="hotel-price">Night starting at <strong>23€</strong></p>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i class="fas fa-star"></i></span>
-                </a>
-                <a class="hotel" href="#">
-                    <img class="hotel-image" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                        alt="Auberge la Cannebière. Night starting at 96€. 5 stars rating">
-                    <h4 class="hotel-name">Hôtel chez Amina</h3>
-                        <p class="hotel-price">Night starting at <strong>96€</strong></p>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i class="fas fa-star"></i></span>
-                </a>
-            </div>
-            <div id="show-more">
-                <a id="show-more-link" href="#">
-                    <h3>Show more</h3>
-                </a>
-            </div>
-        </article>
-        <!-- MOST POPULAR -->
-        <aside>
-            <h2 class="aside-title">Most Popular<i class="fas fa-chart-line chart"></i></h2>
-            <div class="most-popular-container">
-                <a class="most-popular-hotel" href="#">
-                    <img class="most-popular-image"
-                        src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                        alt="Morning Sun Hotel. Night starting at 128€. 5 stars rating">
-                    <div class="most-popular-text">
-                        <h4 class="hotel-name">Morning Sun Hotel</h4>
-                        <p class="hotel-price">Night starting at <strong>128€</strong></p><br>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i class="fas fa-star"></i></span>
-                    </div>
-                </a>
-                <a class="most-popular-hotel" href="#">
-                    <img class="most-popular-image"
-                        src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                        alt="Au cœur de l'eau Bed and Breakfast. Night starting at 71€. 4 stars rating">
-                    <div class="most-popular-text">
-                        <h4 class="hotel-name">Au cœur de l'eau Bed and Breakfast</h4>
-                        <p class="hotel-price">Night starting at <strong>71€</strong></p><br>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i class="fas fa-star"></i></span>
-                    </div>
-                </a>
-                <a class="most-popular-hotel" href="#">
-                    <img class="most-popular-image"
-                        src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                        alt="Tout bleu et Blanc Hotel. Night starting at 68€. 4 stars rating">
-                    <div class="most-popular-text">
-                        <h4 class="hotel-name">Tout bleu et Blanc Hotel</h4>
-                        <p class="hotel-price">Night starting at <strong>68€</strong></p><br>
-                        <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="bluestar"><i
-                                class="fas fa-star"></i></span><span class="greystar"><i class="fas fa-star"></i></span>
-                    </div>
-                </a>
-            </div>
-        </aside>
-    </div>
-
-    <!-- ACTIVITIES -->
-
-    <section id="activities-anchor">
-        <h2 class="section-title">Activities in Marseille</h2>
-        <div class="activities-container">
-            <div id="Old-Port">
-                <a class="activities-link" href="#">
-                    <img class="Old-Port-Image" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                        alt="Old Port">
-                    <h3 class="activity-name">Old Port</h3>
-                </a>
-            </div>
-
-            <div class="container-one-column">
-                <div id="Pomegues-Fort">
-                    <a class="activities-link" href="#">
-                        <img class="Pomegues-Fort-Image"
-                            src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Pomègues Fort">
-                        <h3 class="activity-name">Pomègues Fort</h3>
-                    </a>
-                </div>
-                <div id="Frioul-Island">
-                    <a class="activities-link" href="#">
-                        <img class="Frioul-Image" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                            alt="Frioul Island">
-                        <h3 class="activity-name">Frioul Island</h3>
-                    </a>
-                </div>
-            </div>
-
-            <div id="Calanques-National-Park">
-                <a class="activities-link" href="#">
-                    <img class="Calanques-Image"
-                        src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                        alt="Calanques National Park">
-                    <h3 class="activity-name">Calanques National Park</h3>
-                </a>
-            </div>
-
-            <div class="container-two-column">
-                <div id="Notre-Dame-de-la-Garde">
-                    <a class="activities-link" href="#">
-                        <img class="Notre-Image" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                            alt="Notre-Dame-de-la-Garde">
-                        <h3 class="activity-name">Notre-Dame-de-la-Garde</h3>
-                    </a>
-                </div>
-                <div id="Longchamp-Park">
-                    <a class="activities-link" href="#">
-                        <img class="Longchamp-Image" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                            alt="Longchamp Park">
-                        <h3 class="activity-name">Longchamp Park</h3>
-                    </a>
-                </div>
-            </div>
+        <!-- INTRO -->
+        <div class="intro">
+            <h2 id="intro-h">Find a place for your dream vacation</h2>
+            <p id="intro-p">Downtown or in nature</p>
         </div>
-    </section>
+        <!-- SEARCH BAR -->
+        <div class="search-container">
+            <i class="fas fa-map-marker-alt marker" style="padding: 1em;"></i>
+            <input class="search-box" placeholder="Marseille, France" type="text" />
+            <div id="search-button">Search<i class="fas fa-search search-icon"></i></div>
+        </div>
+        <!-- FILTERS -->
+        <div class="filter-container">
+            <div class="filters">Filters</div>
+            <button class="money"><i class="fas fa-money-bill-wave round"></i>Low cost</button>
+            <button class="child" href="#"><i class="fas fa-child round"></i>Family-friendly</button>
+            <button class="heart" href="#"><i class="fas fa-heart round"></i>Romantic</button>
+            <button class="dog" href="#"><i class="fas fa-dog round"></i>Pets allowed</button>
+        </div>
+        <!-- INFORMATION -->
+        <div class="info-container">
+            <i class="fas fa-info i"></i>
+            <p id="info-p">More than 500 accommodations are available in this city</p>
+        </div>
+
+        <!-- ACCOMMODATIONS -->
+        <div class="one-container">
+            <article id="accommodations-anchor">
+                <h2 class="article-title">Accommodations in Marseille</h2>
+
+                <div class="hotel-container">
+                    <a class="hotel" href="#">
+                        <img class="hotel-image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            alt="Auberge la Cannebière. Night starting at 25€. 4 stars rating">
+                        <h4 class="hotel-name">Auberge la Cannebière</h3>
+                            <p class="hotel-price">Night starting at <strong>25€</strong></p>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span>
+                    </a>
+                    <a class="hotel" href="#">
+                        <img class="hotel-image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            alt="Hotel du port. Night starting at 52€. 5 stars rating">
+                        <h4 class="hotel-name">Hôtel du port</h3>
+                            <p class="hotel-price">Night starting at <strong>52€</strong></p>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span>
+                    </a>
+                    <a class="hotel" href="#">
+                        <img class="hotel-image" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                            alt="Les mouettes Hotel. Night starting at 76€. 4 stars rating">
+                        <h4 class="hotel-name">Les mouettes Hotel</h3>
+                            <p class="hotel-price">Night starting at <strong>76€</strong></p>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span>
+                    </a>
+                    <a class="hotel" href="#">
+                        <img class="hotel-image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            alt="Hotel de la mer. Night starting at 46€. 3 stars rating">
+                        <h4 class="hotel-name">Hôtel de la mer</h3>
+                            <p class="hotel-price">Night starting at <strong>46€</strong></p>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span>
+                    </a>
+                    <a class="hotel" href="#">
+                        <img class="hotel-image" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            alt="Auberge Le Panier. Night starting at 23€. 4 stars rating">
+                        <h4 class="hotel-name">Auberge Le Panier</h3>
+                            <p class="hotel-price">Night starting at <strong>23€</strong></p>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span>
+                    </a>
+                    <a class="hotel" href="#">
+                        <img class="hotel-image"
+                            src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            alt="Auberge la Cannebière. Night starting at 96€. 5 stars rating">
+                        <h4 class="hotel-name">Hôtel chez Amina</h3>
+                            <p class="hotel-price">Night starting at <strong>96€</strong></p>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span>
+                    </a>
+                </div>
+                <div id="show-more">
+                    <a id="show-more-link" href="#">
+                        <h3>Show more</h3>
+                    </a>
+                </div>
+            </article>
+            <!-- MOST POPULAR -->
+            <aside>
+                <h2 class="aside-title">Most Popular<i class="fas fa-chart-line chart"></i></h2>
+                <div class="most-popular-container">
+                    <a class="most-popular-hotel" href="#">
+                        <img class="most-popular-image"
+                            src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            alt="Morning Sun Hotel. Night starting at 128€. 5 stars rating">
+                        <div class="most-popular-text">
+                            <h4 class="hotel-name">Morning Sun Hotel</h4>
+                            <p class="hotel-price">Night starting at <strong>128€</strong></p><br>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span>
+                        </div>
+                    </a>
+                    <a class="most-popular-hotel" href="#">
+                        <img class="most-popular-image"
+                            src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                            alt="Au cœur de l'eau Bed and Breakfast. Night starting at 71€. 4 stars rating">
+                        <div class="most-popular-text">
+                            <h4 class="hotel-name">Au cœur de l'eau Bed and Breakfast</h4>
+                            <p class="hotel-price">Night starting at <strong>71€</strong></p><br>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span>
+                        </div>
+                    </a>
+                    <a class="most-popular-hotel" href="#">
+                        <img class="most-popular-image"
+                            src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                            alt="Tout bleu et Blanc Hotel. Night starting at 68€. 4 stars rating">
+                        <div class="most-popular-text">
+                            <h4 class="hotel-name">Tout bleu et Blanc Hotel</h4>
+                            <p class="hotel-price">Night starting at <strong>68€</strong></p><br>
+                            <span class="bluestar-one"><i class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="bluestar"><i
+                                    class="fas fa-star"></i></span><span class="greystar"><i
+                                    class="fas fa-star"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </aside>
+        </div>
+
+        <!-- ACTIVITIES -->
+
+        <section id="activities-anchor">
+            <h2 class="section-title">Activities in Marseille</h2>
+            <div class="activities-container">
+                <div id="Old-Port">
+                    <a class="activities-link" href="#">
+                        <img class="Old-Port-Image"
+                            src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Old Port">
+                        <h3 class="activity-name">Old Port</h3>
+                    </a>
+                </div>
+
+                <div class="container-one-column">
+                    <div id="Pomegues-Fort">
+                        <a class="activities-link" href="#">
+                            <img class="Pomegues-Fort-Image"
+                                src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                alt="Pomègues Fort">
+                            <h3 class="activity-name">Pomègues Fort</h3>
+                        </a>
+                    </div>
+                    <div id="Frioul-Island">
+                        <a class="activities-link" href="#">
+                            <img class="Frioul-Image"
+                                src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                alt="Frioul Island">
+                            <h3 class="activity-name">Frioul Island</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="Calanques-National-Park">
+                    <a class="activities-link" href="#">
+                        <img class="Calanques-Image"
+                            src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="Calanques National Park">
+                        <h3 class="activity-name">Calanques National Park</h3>
+                    </a>
+                </div>
+
+                <div class="container-two-column">
+                    <div id="Notre-Dame-de-la-Garde">
+                        <a class="activities-link" href="#">
+                            <img class="Notre-Image"
+                                src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                alt="Notre-Dame-de-la-Garde">
+                            <h3 class="activity-name">Notre-Dame-de-la-Garde</h3>
+                        </a>
+                    </div>
+                    <div id="Longchamp-Park">
+                        <a class="activities-link" href="#">
+                            <img class="Longchamp-Image"
+                                src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                alt="Longchamp Park">
+                            <h3 class="activity-name">Longchamp Park</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- FOOTER -->
 
