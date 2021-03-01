@@ -3,9 +3,6 @@ html {
 }
 
 body {
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 1em;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -126,7 +123,7 @@ nav {
 }
 
 .search-icon {
-    color: #0065FC;
+    display: none !important;
 }
 
 /* FILTERS */
@@ -536,8 +533,8 @@ footer {
     }
 
     .part {
-        margin: 0px;
         width: 100%;
+        margin-left: 15px;
     }
 
     .intro, .search-container, .filter-container {
@@ -617,7 +614,7 @@ footer {
 
     .search-container {
         justify-content: center;
-        width: 80%;
+        width: 95%;
         margin: 1.8em 1em;
         padding: 0;
     }
@@ -646,6 +643,7 @@ footer {
     }
 
     .search-icon {
+        display: block !important;
         color: white;
     }
 
@@ -702,13 +700,12 @@ footer {
     }
 
     .most-popular-container {
-        width: 85%;
         height: auto;
-        margin: 0 1em;
+        margin: 0;
     }
 
     .most-popular-hotel {
-        width: 110%;
+        width: 100%;
         margin-bottom: 1.5em;
     }
 
@@ -753,10 +750,15 @@ footer {
 
     /* ACTIVITIES */
 
+    .section-title {
+        margin-left: -10%;
+        margin-bottom: 12%;
+    }
+
     .activities-container {
         flex-direction: column;
-        width: 122%;
-        margin: -3em;
+        width: 100%;
+        margin: -1em;
     }
 
     #Old-Port, #Pomegues-Fort, #Frioul-Island, #Calanques-National-Park, #Notre-Dame-de-la-Garde, #Longchamp-Park {
@@ -775,14 +777,14 @@ footer {
 
     footer {
         height: 28em;
-        width: 109%;
-        margin: 3em 0 0 -2em;
+        width: 100%;
+        padding-right: 4%;
     }
 
     .footer-container {
         flex-direction: column;
         width: 90%;
-        margin-left: 0;
+        margin-left: 1em;
     }
 
     .p-footer {
